@@ -1,13 +1,14 @@
-
+#User Input
 def print_BMI():
     weight = input("Please tell me your weight in kilograms!")
     height = input("Please tell me your height in meters!")
 
-##def print_BMI(BMI):
+##def
 
     fweight = float(weight)
     fheight = float(height)
-##print(fheight, fweight)
+##results
+
     BMI = (fweight/fheight**2)
     fBMI = float(BMI)
     if (BMI>0):
